@@ -23,7 +23,7 @@ const TRANSLATIONS = {
     customization: "外观",
     "api-keys": "API 密钥",
     llm: "LLM 首选项",
-    transcription: "Transcription 模型",
+    transcription: "转录模型",
     embedder: "Embedder 首选项",
     "text-splitting": "文本分割",
     "voice-speech": "语音和讲话",
@@ -186,7 +186,7 @@ const TRANSLATIONS = {
       "desc-start": "此设置控制您的 LLM 回答的“创意”程度",
       "desc-end":
         "数字越高越有创意。对于某些模型，如果设置得太高，可能会导致响应不一致。",
-      hint: "大多数法学硕士都有各种可接受的有效值范围。请咨询您的法学硕士提供商以获取该信息。",
+      hint: "大多数LLM都有各种可接受的有效值范围。请咨询您的LLM提供商以获取该信息。",
     },
   },
 
@@ -330,14 +330,14 @@ const TRANSLATIONS = {
 
   // LLM Preferences
   llm: {
-    title: "LLM 偏好",
+    title: "LLM 首选项",
     description:
       "这些是您首选的 LLM 聊天和嵌入提供商的凭据和设置。重要的是，这些密钥是最新的和正确的，否则 AnythingLLM 将无法正常运行。",
     provider: "LLM 提供商",
   },
 
   transcription: {
-    title: "转录模型偏好",
+    title: "转录模型设置",
     description:
       "这些是您的首选转录模型提供商的凭据和设置。重要的是这些密钥是最新且正确的，否则媒体文件和音频将无法转录。",
     provider: "转录提供商",
@@ -457,7 +457,7 @@ const TRANSLATIONS = {
     description:
       "这是您对如何处理连接的第三方提供商和AnythingLLM的数据的配置。",
     llm: "LLM选择",
-    embedding: "嵌入偏好",
+    embedding: "嵌入首选项",
     vector: "向量数据库",
     anonymous: "启用匿名遥测",
   },
